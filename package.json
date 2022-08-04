@@ -1,0 +1,19 @@
+{
+  "name": "depcheck-cast-bug",
+  "version": "0.0.0",
+  "description": "Minimal example for demonstrating the issue with <> cast operators.",
+  "main": "dist/index.js",
+  "license": "UNLICENSED",
+  "private": false,
+  "scripts": {
+    "build": "tsc --config tsconfig.json",
+    "check": "depcheck --json"
+  },
+  "devDependencies": {
+    "depcheck": "^1.4.3",
+    "typescript": "^4.7.4"
+  },
+  "dependencies": {
+    "fast-glob": "^3.2.11"
+  }
+}
